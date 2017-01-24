@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="dynamics" thread-count="1" verbose="1" parallel="1">
+    <test name="Holiday">
+        <classes>
+            <class name="HeyxTesting.Dynamics.Holidays"/>
+            
+         </classes>
+        </test>
+        <test name="Companies">
+        <classes>
+            <class name="HeyxTesting.Dynamics.Companies"/>
+            
+         </classes>
+        </test>
+        <test name="Reference">
+        <classes>
+            <class name="HeyxTesting.Dynamics.Reference"/>
+            
+         </classes>
+        </test>
+        
+         <test name="TimeManagement">
+        <classes>
+            <class name="HeyxTesting.Dynamics.TimeManagement"/>
+            
+         </classes>
+        </test>
+    </suite>

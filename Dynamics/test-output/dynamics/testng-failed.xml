@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [dynamics]">
+  <test name="Holiday(failed)">
+    <classes>
+      <class name="HeyxTesting.Dynamics.TimeManagement">
+        <methods>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.TimeManagement -->
+      <class name="HeyxTesting.Dynamics.Reference">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Reference -->
+      <class name="HeyxTesting.Dynamics.Companies">
+        <methods>
+          <include name="data"/>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Companies -->
+      <class name="HeyxTesting.Dynamics.Holidays">
+        <methods>
+          <include name="authenticate"/>
+          <include name="afterTest"/>
+          <include name="corporateSetting"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Holidays -->
+    </classes>
+  </test> <!-- Holiday(failed) -->
+  <test name="Companies(failed)">
+    <classes>
+      <class name="HeyxTesting.Dynamics.TimeManagement">
+        <methods>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.TimeManagement -->
+      <class name="HeyxTesting.Dynamics.Reference">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Reference -->
+      <class name="HeyxTesting.Dynamics.Companies">
+        <methods>
+          <include name="search" invocation-numbers="0 1 2 3"/>
+          <include name="data"/>
+          <include name="authenticate"/>
+          <include name="Update"/>
+          <include name="afterTest"/>
+          <include name="delete"/>
+          <include name="select"/>
+          <include name="insert" invocation-numbers="0 1 2 3"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Companies -->
+      <class name="HeyxTesting.Dynamics.Holidays">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Holidays -->
+    </classes>
+  </test> <!-- Companies(failed) -->
+  <test name="Reference(failed)">
+    <classes>
+      <class name="HeyxTesting.Dynamics.TimeManagement">
+        <methods>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.TimeManagement -->
+      <class name="HeyxTesting.Dynamics.Reference">
+        <methods>
+          <include name="referenced"/>
+          <include name="authenticate"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Reference -->
+      <class name="HeyxTesting.Dynamics.Companies">
+        <methods>
+          <include name="data"/>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Companies -->
+      <class name="HeyxTesting.Dynamics.Holidays">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Holidays -->
+    </classes>
+  </test> <!-- Reference(failed) -->
+  <test name="TimeManagement(failed)">
+    <classes>
+      <class name="HeyxTesting.Dynamics.TimeManagement">
+        <methods>
+          <include name="authenticate"/>
+          <include name="afterTest"/>
+          <include name="insert"/>
+          <include name="alignment"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.TimeManagement -->
+      <class name="HeyxTesting.Dynamics.Reference">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Reference -->
+      <class name="HeyxTesting.Dynamics.Companies">
+        <methods>
+          <include name="data"/>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Companies -->
+      <class name="HeyxTesting.Dynamics.Holidays">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- HeyxTesting.Dynamics.Holidays -->
+    </classes>
+  </test> <!-- TimeManagement(failed) -->
+</suite> <!-- Failed suite [dynamics] -->
